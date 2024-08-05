@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    display: grid;
+    place-items: center; /* center the content */
+}
+
+img{
+    width: 100%; /* to make the width in the viewpoint */
+    border-radius: 0.2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin:1rem;
+    padding: 1rem;  /* padding is inside the border */
+    background: #383A45;
+    border-radius: 0.4rem;
+    max-width: 270px; /* max width of the container */
+}
+
+p.title{
+    color: #fff;
+    font-size: 1.2rem;
+    /* font-weight: 500; */
+    /* margin: 0.5rem 0; */
+    line-height: 1.195;
+}
+
+p.description{
+    color: #8D91A6;
+    font-size: 0.8rem;
+}
+
+.link-img{
+    width: 0.8rem;
+}
+
+
+
+@media (min-width: 550px){
+    a{
+       display: flex;
+    }
+    .container{
+        max-width: 520px;
+    }
+    .main-img{
+        width: 10rem;
+        margin-right: 1rem;
+    }
+
+
+}
